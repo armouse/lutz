@@ -23,3 +23,8 @@
 #     def __init__(self, who):
 #         self.name = who
 
+def name(user):
+    if name == 'Станислав':
+        print('hey', name)
+    else:
+        print('пшле вон')
