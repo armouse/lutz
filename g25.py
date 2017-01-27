@@ -23,7 +23,7 @@
 #     def __init__(self, who):
 #         self.name = who
 
-def name(user):
+def username(user):
     if name == 'Станислав':
         print('hey', name)
     else:
