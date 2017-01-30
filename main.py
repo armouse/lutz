@@ -1,7 +1,10 @@
-1def lastname(name):
-    if name == 'Станислав':
-        return 'hi'
+def username(name):
+    if name == 'admin':
+        return 'Hello', name
     else:
-        return 'n1'
+        return 'error'
+
+print(username('admin'))
+
 
 
