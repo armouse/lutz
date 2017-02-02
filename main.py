@@ -1,15 +1,5 @@
-def username(name):
-    if name == 'admin':
-        return 'Hello', name
-    else:
-        return 'error'
+import oop26
 
-print(username('admin'))
-
-a = 3
-b = 5
-if a > b:
-    print a
-else:
-    print b
-
+x = oop26.FirstClass()
+x.setdata('hey')
+x.display()
