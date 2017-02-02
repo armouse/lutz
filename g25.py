@@ -28,3 +28,6 @@ def username(user):
         print('hey', name)
     else:
         print('пшле вон')
+
+while a > b:
+    
