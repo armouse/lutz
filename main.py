@@ -5,6 +5,11 @@ def username(name):
         return 'error'
 
 print(username('admin'))
-a = t
 
+a = 3
+b = 5
+if a > b:
+    print a
+else:
+    print b
 
