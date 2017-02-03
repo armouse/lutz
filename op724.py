@@ -25,5 +25,5 @@ class Person:
 rec1 = Person('mel', 'trainer')
 rec2 = Person('stas', 'dev')
 
-print(rec1.info())
+print(rec1.info())1
 
