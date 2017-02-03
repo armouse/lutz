@@ -1,5 +1,10 @@
-import oop26
+from person import Person
+bob = Person('Bob Smith')
 
-x = oop26.FirstClass()
-x.setdata('hey')
-x.display()
+# print(bob)
+# print(bob.__class__)
+# print(bob.__class__.__name__)
+# print(list(bob.__dict__))
+
+for key in bob.__dict__:
+    print(key, '=>', bob.__dict__[key])

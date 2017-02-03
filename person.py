@@ -37,14 +37,13 @@ class Department:
 
 bob = Person('Bob Smith')
 sue = Person('Sue Jones', job='dev', pay=100000)
-tom = Person('Tod Beners', pay=50000)
+tom = Person('Tom Beners', pay=50000)
 
 development = Department(bob,sue)
 development.addMember(tom)
 development.giveRaises(.10)
 development.showAll()
 
-1
 
 
 
